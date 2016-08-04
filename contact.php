@@ -189,6 +189,9 @@ isFixed = false;
 								if(mail($to,"new enquiry",$msg,$headers)){
 									echo "Message sent successfully.";
 								}
+								else{
+									echo "error: message not sent";
+								}
 
 							}
 							else{

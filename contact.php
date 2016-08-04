@@ -187,7 +187,7 @@ isFixed = false;
 								$to="koumaar.jayashankar@gmail.com";
 
 								if(mail($to,"new enquiry",$msg,$headers)){
-									echo "Message sent successfully."
+									echo "Message sent successfully.";
 								}
 
 							}

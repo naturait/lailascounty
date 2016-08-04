@@ -186,9 +186,9 @@ isFixed = false;
 								$headers = "From: ".$_POST['contact_email']."\r\n";
 								$to="koumaar.jayashankar@gmail.com";
 
-								if(mail($to,"new enquiry",$msg,$headers)){
+								if($result=mail($to,"new enquiry",$msg,$headers)){
 									echo "Message sent successfully.";
-									echo mail($to,"new enquiry",$msg,$headers);
+									echo $result;
 								}
 								else{
 									echo "error: message not sent";

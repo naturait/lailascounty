@@ -186,8 +186,10 @@ isFixed = false;
 								$headers = "From: ".$_POST['contact_email']."\r\n";
 								$to="koumaar.jayashankar@gmail.com";
 
-								mail($to,"new enquiry",$msg,$headers);
-								
+								if(mail($to,"new enquiry",$msg,$headers)){
+									echo "Message sent successfully."
+								}
+
 							}
 							else{
 								echo "<b><i style='color:red;'>One of the field is blank. Please fill out all of the fields.</i></b>";

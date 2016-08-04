@@ -179,11 +179,11 @@ footer a:hover {color:#ffee99;}
 
 /* -------------------- D. FONT FAMILIES -------------------- */
 .sf-menu, #contact-header, h1, h2, h3, h4, h5, h6, #main #sidebar h5 { 
-	font-family: 'Tinos', serif;
+	font-family: Helvetica;
 }
 
 body {
-	font-family:"Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica;
 }
 
 
@@ -273,7 +273,7 @@ body #logo {float:left; margin:0px; padding:0px; border:none;  position:absolute
 header .width-container {position:relative;}
 body #logo img { height: auto; }
 #contact-header {
-	font-size:15px;
+	font-size:13px;
 	padding:16px 0px; 
 	position:relative;
 	z-index:6;

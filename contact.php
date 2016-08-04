@@ -166,18 +166,38 @@ isFixed = false;
 </script>
 
 						
-						<form method="post" id="contactform">
-						<!--<form method="post" action="http://progressionstudios.com/anchor/contact.php" id="contactform">-->
-								<div><input type="text" size="28" name="contactname" id="contactname" value="" class="required" placeholder="Name*" /></div>
+						<form method="post" id="contactform" action="contact.php">
+						
+								<div><input type="text" size="28" name="contact_name" id="contactname" value="" class="required" placeholder="Name*" /></div>
 
-								<div><input type="text" size="28" name="email" id="email" value="" class="required email" placeholder="E-mail*" /></div>
+								<div><input type="text" size="28" name="contact_email" id="email" value="" class="required email" placeholder="E-mail*" /></div>
 
-								<div><textarea rows="12" cols="38" name="message" id="message" placeholder="Enter a message"></textarea></div>
+								<div><textarea rows="12" cols="38" name="contact_message" id="message" placeholder="Enter a message"></textarea></div>
 
-								<div><input type="submit" value="Send Message" name="submit" class="submit" /></div>
+								<div><input type="submit" value="Send Message" name="contact_submit" class="submit" /></div>
 						</form>
 
+						<!-- php content for sending mail -->
+						<?php
+						if(isset($_POST['contact_submit'])){
+							if(isset($_POST['contact_name']) &&!empty($_POST['contact_name']) && isset($_POST['contact_email']) && !empty($_POST['contact_email']) && isset($_POST['contact_message']) && !empty($_POST['contact_message'])) {
+								$msg="Name of the person:".$_POST['contact_name']."\n".$_POST['contact_message']."\n";
+								$msg=str_replace("\n.","\n..",$msg);
+								$headers = "From: ".$_POST['contact_email']."\r\n";
+								$to="koumaar.jayashankar@gmail.com";
+
+								mail($to,"new enquiry",$msg,$headers);
+								
+							}
+							else{
+								echo "<b><i style='color:red;'>One of the field is blank. Please fill out all of the fields.</i></b>";
+							}
+						}
+						?>
+						<!-- php content for sending mail -->
+
 					</div><!-- close #contact-wrapper -->
+
 					
 				</div><!-- close .content-container-anchor -->
 			

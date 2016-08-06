@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link href='http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- socicon for icon -->
+	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+	<!-- socicon for icon -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
 	<script src="js/libs/jquery-1.7.1.min.js"></script>
@@ -56,7 +59,7 @@
 						<a href="gallery.html">Gallery</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact.php">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -64,9 +67,11 @@
 			<div id="header-search">
 				<!-- social icons -->
 				<div class="icons">
-					<a href="https://www.facebook.com/lailascounty" class="facebook-ico" target="_blank"><div alt="f204" class="genericon genericon-facebook-alt"></div></a>
-<a href="https://twitter.com/lailascounty1" class="twitter-ico" target="_blank"><div alt="f202" class="genericon genericon-twitter"></div></a>
-<a href="https://plus.google.com/111300930463539120155/" class="google-ico" target="_blank"><div alt="f206" class="genericon genericon-googleplus"></div></a>
+
+					<a href="https://www.facebook.com/lailascounty" class="socicon-facebook" ></a>
+					<a href="https://twitter.com/lailascounty1" class="socicon-twitter" ></a>
+					<a href="https://plus.google.com/111300930463539120155/" class="socicon-googleplus" ></a>
+					<a class="socicon-tripadvisor" href="https://www.tripadvisor.in/Hotel_Review-g659792-d2533845-Reviews-Laila_s_County-Pondicherry_Union_Territory_of_Pondicherry.html"></a>
 
 				</div>
 				
@@ -307,7 +312,7 @@ Pondicherry-605 001, South India<br>
 					<li><a href="dinning.html">Dining</a></li>
 					<li><a href="offers.php">Offers</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="contact.php">Contact us</a></li>
 				</ul>
 			</div><!-- close .grid4column -->
 			
@@ -329,15 +334,16 @@ Pondicherry-605 001, South India<br>
 		<div id="copyright">
 			<div class="width-container">
 			<div class="grid2column">
-				&copy; 2016 All Rights Reserved.  Developed by Natura Web Solutions  <a href="" target="_blank"></a>
+				&copy; 2016 All Rights Reserved.  Developed by Natura Web Solutions <img src="images/nws_footer.png" alt="nws" height="10px" width="10px">
 			</div>
 			<div class="grid2column lastcolumn">
 				<!-- social icons -->
 				<div class="icons">
-					<a href="https://www.facebook.com/lailascounty" class="facebook-ico" target="_blank"><div alt="f204" class="genericon genericon-facebook-alt"></div></a>
-<a href="https://twitter.com/lailascounty1" class="twitter-ico" target="_blank"><div alt="f202" class="genericon genericon-twitter"></div></a>
-<a href="https://plus.google.com/111300930463539120155/" class="google-ico" target="_blank"><div alt="f206" class="genericon genericon-googleplus"></div></a>
 
+					<a href="https://www.facebook.com/lailascounty" class="socicon-facebook" ></a>
+					<a href="https://twitter.com/lailascounty1" class="socicon-twitter" ></a>
+					<a href="https://plus.google.com/111300930463539120155/" class="socicon-googleplus" ></a>
+					<a class="socicon-tripadvisor" href="https://www.tripadvisor.in/Hotel_Review-g659792-d2533845-Reviews-Laila_s_County-Pondicherry_Union_Territory_of_Pondicherry.html"></a>
 
 				</div>
 			</div>

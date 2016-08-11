@@ -83,7 +83,7 @@
 	
 	<div id="contact-header">
 		<div class="width-container"><div id="contact-header-text"><strong>Address:</strong> <em><a href="#" target="_blank">No.8,Quai d'Ambour [Ambour Salai],
-Pondicherry-605 001, South India/<a></em>  &nbsp;&nbsp; <strong>Reservation Line:</strong> <em>0413 2333633 / 2335333</em></div></div><!-- close .width-container -->
+Pondicherry-605 001, South India<a></em>  &nbsp;&nbsp; <strong>Reservation Line:</strong> <em>0413 2333633 / 2335333 </em><strong>Mobile:</strong><em>+91 97917 75888</em></div></div><!-- close .width-container -->
 	</div>
 	
 	
@@ -197,12 +197,11 @@ isFixed = false;
 								}
 								else{
 									echo "error: message not sent";
-									var_dump($result);
 								}
 
 							}
 							else{
-								echo "<b><i style='color:red;'>One of the field is blank. Please fill out all of the fields.</i></b>";
+								echo "<b><i style='color:red;'> Please fill out all of the fields.</i></b>";
 							}
 						}
 						?>
@@ -222,7 +221,8 @@ isFixed = false;
 						<ul>
 							<li>Desk:0413-2333633</li>
 							<li>Hotline:0413-2335333</li>
-							<li><a href="mailto:gm@lailascounty.com">gm@lailascounty.com</a></li>
+							<li>Mobile: 97917 75888</li>
+							<li><a href="mailto:mail@lailascounty.com">mail@lailascounty.com</a></li>
 						</ul>
 						<div class="sidebar-divider"></div>
 						
@@ -233,7 +233,7 @@ isFixed = false;
 Pondicherry-605 001, South India<br>
 							</li>
 							<li>Phone:0413-2335333</li>
-							<li><a href="mailto:manager@anchorinn.com">gm@lailascounty.com</a></li>
+							<li><a href="mailto:mail@lailascounty.com">mail@lailascounty.com</a></li>
 						</ul>
 						
 						<div class="sidebar-divider"></div>
@@ -318,11 +318,12 @@ Pondicherry-605 001, South India<br>
 			
 			<div class="grid4column">
 				<h5>Booking</h5>
-				<P>
+				<p>
 					<h6> Laila's County</h6>
 					<strong>Desk:</strong> 0413 2333633 <br>
 				<strong>Hotline:</strong>0413 2335333<br>
-				<a href="mailto:gm@lailascounty.com">gm@lailascounty.com</a></P>
+				<strong>Mobile:</strong>97917 75888<br>
+				<a href="mailto:mail@lailascounty.com">mail@lailascounty.com</a></p>
 			</div><!-- close .grid4column -->
 			
 			<div class="grid4column lastcolumn">

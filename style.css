@@ -1036,7 +1036,7 @@ body .lastcolumn {margin-right:0% !important;}
  */
 
 .lt-ie8 .icons {display:none !important;}
-.icons {text-align:center; margin:18px 0px 26px 0px;font-size:14px;}
+.icons {text-align:center; margin:18px 0px 26px 0px;font-size:20px;}
 footer .icons {text-align:right; margin:0px;}
 #sidebar .icons {text-align:left; margin:15px 0px 0px 0px; line-height:2.4;}
 .genericon:hover {opacity:0.75;}
@@ -1380,7 +1380,8 @@ width:200px;
 .socicon-facebook{
 	background-color:darkblue;
 	padding: 5px 3px 5px 3px;
-	color:white;	
+	color:white;
+
 }
 
 .socicon-facebook:hover{
